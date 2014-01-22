@@ -100,10 +100,15 @@ a.post:hover,a.post:active{
 
 .project {
     width: 400;
+    height:130;
     border:1px black solid;
     padding:20;
     margin:5;
+    display:inline;
     float:left;
+    color:#98bf21;
+    background-color:#454444;
+    
 }
 
 
@@ -207,6 +212,7 @@ a.current,a.current:hover{
     border-color:#00ff45;
     border-style:solid;
     
+    background: linear-gradient(#000, #454444, #454444, #000, #000); 
     background-color: #454444;
     
     /* text variables - defaults */
@@ -237,18 +243,21 @@ a.current,a.current:hover{
     display:block;
     right:0px;
     left:0px;
-    top:200px;
-    bottom:10;
+    top:190px;
+    bottom:0;
     width:200px;
     
     border-right-width:1px;
     border-color:#000;
     border-right-style:solid;
     
+    background: linear-gradient(to right, #98bf21, #fff);
     background-color:white;
     
     margin:0;
+    padding:0;
     padding-right:20;
+    padding-top:10;
     
     /* text variables - defaults */
     text-align:right;
@@ -258,15 +267,16 @@ a.current,a.current:hover{
 #content{
     /* box variables */
     display:block;
-    margin:210px 0px 0px 240px;
-    padding:0;
-    padding-left:0px;
+    margin:190px 0px 0px 220px;
+    height:100%;
+    padding:20;
     
     border-width:0px;
     border-color:#000;
     border-style:solid;
     
-    background-color:white;
+    background: linear-gradient(to left, #98bf21, #fff);
+    overflow:auto;
     
     /* text variables - defaults */
     text-align:left;
