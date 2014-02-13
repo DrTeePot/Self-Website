@@ -42,123 +42,6 @@ a{
     text-decoration:none;
 }
 
-/*      Blog Stuff      */
-/* Not in use
-div.post{
-    margin:0;
-    margin-right:10;
-    margin-bottom:20;
-    padding:0;
-    height:220;
-}*/
-
-.post-thumbnail{
-    padding:10;
-    float:left;
-    margin:0;
-    width:200;
-    height:200;
-}
-
-.post-body{
-    margin:20;
-    margin-left:230;
-    padding:0;
-    color: 98bf21;
-    /*color: white;*/
-    overflow:hidden;
-    max-height:180;
-}
-
-img.thumbnail{
-    padding:0;
-    margin:0;
-    width:200;
-    height:200;
-}
-
-a.post { 
-    display:block;
-    margin:5;
-    padding:0;
-    height:220;
-    
-}
-a.post:link,a.post:visited{
-    background-color:#454444;
-    display:block;
-    border:3px black solid;
-}
-
-a.post:hover,a.post:active{
-    //background-color:#000;
-    border-color:white;
-}
-
-/*      Project Stuff   */
-
-.project {
-    width: 400;
-    height:130;
-    border:2px black solid;
-    padding:20;
-    margin:0;
-    display:block;
-    float:left;
-    color:#98bf21;    
-}
-
-.spacer{
-    clear:both;   
-}
-
-a.project:link,a.project:visited{
-    width: auto;
-    height:auto;
-    padding:0;
-    margin:0;
-    color:#98bf21;
-    background-color:#454444;
-}
-
-a.project:hover, a.project:active{
-    border-color:#fff;
-}
-
-/*      Resume Stuff    */
-
-.work_history{
-    margin:0;
-    margin-left:30;
-    margin-right: 20;
-    padding:0;
-    padding-bottom:10;
-}
-
-.employer {
-    font-family:inherit;
-    font-weight:500;
-    font-size:1em;   
-    padding:0;
-    margin:0;
-    padding-left:0;
-    padding-top:0;
-    padding-bottom:0;
-}
-
-.date {
-    float:right;
-    font-weight:500;
-    font-size:0.9em;
-}
-
-.position{
-    margin-left:0;
-    display:block;
-    font-size:0.8em;
-    font-weight:500;
-}
-
 /*      Nav Bar     */
 
 table.nav{
@@ -437,10 +320,17 @@ h4 {
     padding-bottom:2;
 }
 
-p{
+h5{
     font-family:"Exo";
     font-weight:300;
     font-size:0.8em;
+    padding:0;
+    margin:0;   
+}
+p{
+    font-family:"Exo";
+    font-weight:300;
+    font-size:1em;
     padding:0;
     margin:0;
 }
