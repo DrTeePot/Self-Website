@@ -147,10 +147,10 @@ a.current,a.current:hover{
     z-index:2;
     
     /*background: linear-gradient(to right, #98bf21, #fff);*/
-    background-color:#454444;*/
+    background-color:#454444;
     /*box-shadow: inset 0px 0px 75px #fff;*/
     
-    margin:20;
+    margin:0;
     padding:20;
     
     border-right-width:0px;
